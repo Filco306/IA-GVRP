@@ -1,0 +1,31 @@
+README Disco
+
+English
+
+Hello, if you are reading this, you probably want to 
+
+Español abajo
+
+Estimado,
+
+Si usted lee esto, eso significa que quizá quiera correr mi programa. Para correr mi programa, siga los siguientes pasos.
+
+1. Abra un terminal.
+2. Vaya, en el terminal, adentro de esta carpeta.
+3. Corre el comando “make”.
+4. Escriba “./GVRP”. Una línea que dice “Enter filename:” va a aparecer.
+5. Para correr las instancias dadas, entre “Instancias/<NombreInstancia>” para correr una instancia específica.
+6. Si todo sale bien, van a aparecer todos los valores de los parámetros calculados en el problema.
+7.Luego, el programa le pedirá la cantidad de iteraciones máximo que el programa va a correr. Entre la cantidad de iteraciones, y espere las soluciones a aparecer en el terminal.
+
+Es importante notar que ahora, hay una versión más lenta con el ordenamiento normal. Para correr el programa más rápido, comente las siguientes líneas del código en Model.cpp.
+
+- Líneas 656-658
+- Líneas 704-707
+- Líneas 716-719
+- Líneas 936-939
+- Líneas 948-951
+
+El programa va a correr más rápido ahora, y va a encontrar mejores soluciones. No obstante, es importante mencionar que no se tiene implementado FC+GBJ en su forma más pura que es posible implementar para este problema con esta representación.
+
+Para eliminar los archivos basura, corra el comando “make clean”, y los archivos *.o se elimina.
