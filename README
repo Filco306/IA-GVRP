@@ -2,7 +2,14 @@ README Disco
 
 English
 
-Hello, if you are reading this, you probably want to 
+Hello, if you are reading this, you probably want to run this program. To run it, follow the instructions below. 
+
+1. Open a terminal. 
+2. Go to the source folder for this file. 
+3. Type in "make". Press enter.
+4. Write "./GVRP". 
+5. To run a certain instance, write "Instancias/<Name of instance>" to run a specific problem instance. All the parameters for the specific instance should appear. 
+6. The program will ask you for the maximum number of iterations. Enter the maximum number of iterations. 
 
 Español abajo
 
@@ -11,12 +18,11 @@ Estimado,
 Si usted lee esto, eso significa que quizá quiera correr mi programa. Para correr mi programa, siga los siguientes pasos.
 
 1. Abra un terminal.
-2. Vaya, en el terminal, adentro de esta carpeta.
+2. Vaya, en el terminal, adentro de la carpeta del archivo.
 3. Corre el comando “make”.
 4. Escriba “./GVRP”. Una línea que dice “Enter filename:” va a aparecer.
-5. Para correr las instancias dadas, entre “Instancias/<NombreInstancia>” para correr una instancia específica.
-6. Si todo sale bien, van a aparecer todos los valores de los parámetros calculados en el problema.
-7.Luego, el programa le pedirá la cantidad de iteraciones máximo que el programa va a correr. Entre la cantidad de iteraciones, y espere las soluciones a aparecer en el terminal.
+5. Para correr las instancias dadas, entre “Instancias/<NombreInstancia>” para correr una instancia específica. Si todo sale bien, van a aparecer todos los valores de los parámetros calculados en el problema.
+6. Luego, el programa le pedirá la cantidad de iteraciones máximo que el programa va a correr. Entre la cantidad de iteraciones, y espere las soluciones a aparecer en el terminal.
 
 Es importante notar que ahora, hay una versión más lenta con el ordenamiento normal. Para correr el programa más rápido, comente las siguientes líneas del código en Model.cpp.
 
